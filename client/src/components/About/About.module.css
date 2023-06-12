@@ -1,11 +1,13 @@
 .container{
+    background-color: #454545;
     padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    border: 2px solid black;
+    /* border: 2px solid #FFFFFF; */
     border-radius: 5px;
+    box-shadow: 0px 0px 8px #FFFFFF;
 }
 
 .title{
