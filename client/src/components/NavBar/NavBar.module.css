@@ -1,0 +1,12 @@
+.container{
+    background-color: #2d2d2d;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}

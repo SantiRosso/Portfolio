@@ -4,8 +4,8 @@ const About = () => {
     return(
         <div className={s.container}>
             <div className={s.title}>
-                <h1>Santiago Rosso</h1>
-                <h3>Full stack developer</h3>
+                <h1 className={s.h1}>Santiago Rosso</h1>
+                <h3 className={s.h3}>Full stack developer</h3>
             </div>
             <div>
                 <p>Hola! Soy Santiago Rosso, egresado de la carrera de Desarrollo Web Full Stack en la academia Soy Henry y apasionado por la tecnología.</p>

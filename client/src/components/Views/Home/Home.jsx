@@ -1,10 +1,13 @@
+//components
 import About from "../../About/About";
+import NavBar from "../../NavBar/NavBar";
+//styles
+import s from "./Home.module.css";
 
 const Home = () => {
     return(
-        <div>
-            <h1>Home</h1>
-            {/* <NavBar/> */}
+        <div className={s.container}>
+            <NavBar/>
             <About/>
             {/* <Technologies/> */}
             {/* <Projects/> */}
