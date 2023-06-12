@@ -1,3 +1,4 @@
+import Button from "../Button/Button";
 import s from "./NavBar.module.css";
 
 const NavBar = () => {
@@ -7,10 +8,14 @@ const NavBar = () => {
                 <span>Santiago Rosso</span>
             </div>
             <div className={s.content}>
-                <span>About</span>
-                <span>Technologies</span>
-                <span>Projects</span>
-                <span>Contact</span>
+                {/* <span>Sobre mi</span>
+                <span>Tecnologías</span>
+                <span>Proyectos</span>
+                <span>Contacto</span> */}
+                <Button name={"Sobre mi"}/>
+                <Button name={"Tecnologías"}/>
+                <Button name={"Proyectos"}/>
+                <Button name={"Contacto"}/>
             </div>
         </div>
     )

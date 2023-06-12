@@ -8,6 +8,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    /* border-bottom: 2px solid #69b4ff; */
+    box-shadow: 2px 0px 4px 2px #69b4ff;
 }
 
 .content{
@@ -17,5 +19,5 @@
 }
 
 .title{
-    
+    color: #69b4ff;
 }
