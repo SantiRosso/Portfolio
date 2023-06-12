@@ -3,14 +3,14 @@ import s from "./NavBar.module.css";
 const NavBar = () => {
     return(
         <div className={s.container}>
-            <div>
-                <h1>Santiago Rosso</h1>
+            <div className={s.title}>
+                <span>Santiago Rosso</span>
             </div>
             <div className={s.content}>
-                <h1>About</h1>
-                <h1>Technologies</h1>
-                <h1>Projects</h1>
-                <h1>Contact</h1>
+                <span>About</span>
+                <span>Technologies</span>
+                <span>Projects</span>
+                <span>Contact</span>
             </div>
         </div>
     )
