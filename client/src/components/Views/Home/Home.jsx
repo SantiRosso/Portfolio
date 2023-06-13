@@ -15,10 +15,11 @@ const Home = () => {
                 <img className={s.img} src={programador} alt="Imagen de programador" />
                 <About/>
             </div>
-            
-            {/* <Technologies/> */}
             <Projects/>
+            {/* <Technologies/> */}
+            {/* <Education/> */}
             {/* <Contact/> */}
+            {/* <Footer/> */}
         </div>
     )
 }

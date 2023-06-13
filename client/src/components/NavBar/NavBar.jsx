@@ -9,12 +9,14 @@ const NavBar = () => {
             </div>
             <div className={s.content}>
                 <span className={s.span}>Sobre mi</span>
-                <span className={s.span}>Tecnologías</span>
                 <span className={s.span}>Proyectos</span>
+                <span className={s.span}>Tecnologías</span>
+                <span className={s.span}>Educación</span>
                 <span className={s.span}>Contacto</span>
                 {/* <Button name={"Sobre mi"}/>
-                <Button name={"Tecnologías"}/>
                 <Button name={"Proyectos"}/>
+                <Button name={"Tecnologías"}/>
+                <Button name={"Educación"}/>
                 <Button name={"Contacto"}/> */}
             </div>
         </div>

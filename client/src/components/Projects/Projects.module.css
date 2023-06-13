@@ -1,0 +1,27 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrousel{
+    background-color: #454545;
+    height: 40vh;
+    width: 70%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid #FFFFFF; */
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 4px 2px #2d2d2d; */
+    /* box-shadow: 0px 0px 4px 2px #FFFFFF; */
+    box-shadow: 0px 0px 4px 2px #69b4ff;
+    /* box-shadow: 0px 0px 4px 2px #9e9e9e; */
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5vh;
+    font-size: larger;
+}

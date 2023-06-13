@@ -8,7 +8,7 @@ const Button = ({name, click, disabled, icon, type, route}) => {
     const handleClick = () => {
         if(route){
             navigate(route)
-        } else {
+        } else if(click) {
             click()
         }
     }
