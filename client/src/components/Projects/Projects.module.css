@@ -12,7 +12,7 @@
     width: 70%;
     padding: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     /* border: 2px solid #FFFFFF; */
     border-radius: 5px;
