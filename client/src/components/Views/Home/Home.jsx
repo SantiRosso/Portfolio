@@ -1,6 +1,7 @@
 //components
 import About from "../../About/About";
 import NavBar from "../../NavBar/NavBar";
+import Projects from "../../Projects/Projects";
 //styles
 import s from "./Home.module.css";
 
@@ -10,7 +11,7 @@ const Home = () => {
             <NavBar/>
             <About/>
             {/* <Technologies/> */}
-            {/* <Projects/> */}
+            <Projects/>
             {/* <Contact/> */}
         </div>
     )
