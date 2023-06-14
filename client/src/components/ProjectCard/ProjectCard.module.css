@@ -1,6 +1,5 @@
 .card{
     background-color: #2d2d2d;
-    /* background-image: radial-gradient(circle, #0085ff, #1e8eff, #3297ff, #44a0ff, #54a9ff, #59b5ff, #64c0ff, #73caff, #88d9fd, #a3e7fb, #c1f3fb, #e0ffff); */
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -15,9 +14,6 @@
 .card:hover{
     background-color: #69b4ff;
     background-image: linear-gradient(to right top, #0085ff, #2691ff, #3f9dff, #54a9ff, #69b4ff);
-    /* background-image: radial-gradient(circle, #0085ff, #1e8eff, #3297ff, #44a0ff, #54a9ff, #59b5ff, #64c0ff, #73caff, #88d9fd, #a3e7fb, #c1f3fb, #e0ffff); */
-    /* background-image: radial-gradient(circle, #e0ffff, #c1f3fb, #a3e7fb, #88d9fd, #73caff, #64c0ff, #59b5ff, #54a9ff, #44a0ff, #3297ff, #1e8eff, #0085ff); */
-    /* background-image: linear-gradient(to bottom, #e0ffff, #c1f3fb, #a3e7fb, #88d9fd, #73caff, #64c0ff, #59b5ff, #54a9ff, #44a0ff, #3297ff, #1e8eff, #0085ff); */
     box-shadow: 0px 0px 4px 6px #2d2d2d;
     color:#2d2d2d;
 }

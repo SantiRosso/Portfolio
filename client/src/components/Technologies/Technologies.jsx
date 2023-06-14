@@ -2,7 +2,7 @@ import s from "./Technologies.module.css";
 
 const Technologies = () => {
     return(
-        <div className={s.container2}>
+        <div className={s.container2} id="technologies">
             <div>
                 <h1>Tecnologías</h1>
             </div>
@@ -38,7 +38,8 @@ const Technologies = () => {
                     </div>
                     <div className={s.tooltipContainer}>
                         <span className={s.tooltipText}>Node.js</span>
-                        <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
+                        {/* <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" /> */}
+                        <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
                     </div>
                     <div className={s.tooltipContainer}>
                         <span className={s.tooltipText}>Express</span>

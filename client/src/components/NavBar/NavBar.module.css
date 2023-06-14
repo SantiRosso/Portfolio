@@ -8,7 +8,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* border-bottom: 2px solid #69b4ff; */
     box-shadow: 2px 0px 4px 2px #69b4ff;
 }
 
@@ -32,4 +31,9 @@
 .span:hover{
     background-color: #006fff;
     box-shadow: 0px 0px 8px 4px #69b4ff;
+}
+
+.link{
+    text-decoration: none;
+    color: #FFFFFF;
 }

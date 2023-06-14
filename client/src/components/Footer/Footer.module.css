@@ -3,7 +3,6 @@
     bottom: 0;
     right: 0;
     z-index: 11;
-    /* width: 100%; */
     display: flex;
     justify-content: flex-end;
     background-color: #454545;
