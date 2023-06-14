@@ -3,6 +3,7 @@ import About from "../../About/About";
 import Footer from "../../Footer/Footer";
 import NavBar from "../../NavBar/NavBar";
 import Projects from "../../Projects/Projects";
+import Technologies from "../../Technologies/Technologies";
 //styles
 import s from "./Home.module.css";
 //images
@@ -17,7 +18,7 @@ const Home = () => {
                 <About/>
             </div>
             <Projects/>
-            {/* <Technologies/> */}
+            <Technologies/>
             {/* <Education/> */}
             {/* <Contact/> */}
             <Footer/>
