@@ -16,11 +16,31 @@ const Projects = () => {
             img: "asd",
             id: 1
         },
+        {
+            name: "EasyLearning",
+            img: "asd",
+            id: 2
+        },
+        {
+            name: "Pokedex",
+            img: "asd",
+            id: 3
+        },
+        {
+            name: "Formulario: Coaching Empleo y Capacitación",
+            img: "asd",
+            id: 4
+        },
+        {
+            name: "Inmobiliaria",
+            img: "asd",
+            id: 5
+        },
     ]
 
     //PAGINATION 
     const [page, setPage] = useState(1);
-    const [perPage] = useState(4);
+    const [perPage] = useState(3);
     let max = Math.ceil(projects.length - perPage + 1 / perPage)
 
     const nextPage = () => {
