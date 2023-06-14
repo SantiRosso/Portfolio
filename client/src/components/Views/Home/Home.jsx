@@ -1,5 +1,6 @@
 //components
 import About from "../../About/About";
+import Footer from "../../Footer/Footer";
 import NavBar from "../../NavBar/NavBar";
 import Projects from "../../Projects/Projects";
 //styles
@@ -19,7 +20,7 @@ const Home = () => {
             {/* <Technologies/> */}
             {/* <Education/> */}
             {/* <Contact/> */}
-            {/* <Footer/> */}
+            <Footer/>
         </div>
     )
 }
