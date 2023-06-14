@@ -21,10 +21,40 @@ const initialState = {
       id: 4,
     },
     {
-      name: "Inmobiliaria",
+      name: "Sinergia ONG",
       img: "asd",
       id: 5,
     },
+    {
+      name: "Inmobiliaria Martinez",
+      img: "asd",
+      id: 6,
+    },
+    // {
+    //   name: "PokeCards",
+    //   img: "asd",
+    //   id: 0,
+    // },
+    // {
+    //   name: "Achebeo",
+    //   img: "asd",
+    //   id: 0,
+    // },
+    // {
+    //   name: "Turnero",
+    //   img: "asd",
+    //   id: 0,
+    // },
+    // {
+    //   name: "ToDo",
+    //   img: "asd",
+    //   id: 0,
+    // },
+    // {
+    //   name: "MovieLabs",
+    //   img: "asd",
+    //   id: 0,
+    // },
   ],
 };
 
