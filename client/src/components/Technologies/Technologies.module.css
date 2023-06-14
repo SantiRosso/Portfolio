@@ -18,3 +18,35 @@
     margin-bottom: 5vh;
     font-size: larger;
 }
+
+.technologies{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img{
+    cursor: pointer;
+    height: 5vh;
+    width: 5vh;
+}
+
+.tooltipText{
+    display: none;
+    position: absolute;
+    top: -75%;
+    left: -20%;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.tooltipContainer{
+    position: relative;
+}
+
+.tooltipContainer:hover .tooltipText {
+    display: block;
+  }
