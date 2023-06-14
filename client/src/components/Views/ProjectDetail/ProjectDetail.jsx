@@ -1,5 +1,9 @@
 import { useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
+//components
+import NavBar from "../../NavBar/NavBar";
+//style
+import s from "./ProjectDetail.module.css";
 
 const ProjectDetail = () => {
 
@@ -7,13 +11,12 @@ const ProjectDetail = () => {
     const projects = useSelector((state) => state.projects);
 
     const project = projects?.filter((e) => e.id == id)
-    console.log("project", project[0])
-    console.log(projects)
-    console.log(id)
 
     return(
-        <div>
-            Detalle del proyecto
+        <div className={s.container}>
+            <NavBar/>
+            <h1>{project[0].name}</h1>
+            <img src={project[0].img} alt={project[0].name} />
         </div>
     )
 }
