@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useSelector } from "react-redux";
 //components
 import Button from "../Button/Button";
 import ProjectCard from "../ProjectCard/ProjectCard"
@@ -10,33 +11,7 @@ import {TfiAngleLeft, TfiAngleRight} from "react-icons/tfi"
 
 const Projects = () => {
 
-    const [projects, setProjects] = useState([
-        {
-            name: "Videogames",
-            img: "asd",
-            id: 1
-        },
-        {
-            name: "EasyLearning",
-            img: "asd",
-            id: 2
-        },
-        {
-            name: "Pokedex",
-            img: "asd",
-            id: 3
-        },
-        {
-            name: "Formulario: Coaching Empleo y Capacitación",
-            img: "asd",
-            id: 4
-        },
-        {
-            name: "Inmobiliaria",
-            img: "asd",
-            id: 5
-        }
-    ])
+    const projects = useSelector((state) => state.projects)
 
     //PAGINATION 
     const [page, setPage] = useState(1);
