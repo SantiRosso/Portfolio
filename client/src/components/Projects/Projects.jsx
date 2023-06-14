@@ -10,7 +10,7 @@ import {TfiAngleLeft, TfiAngleRight} from "react-icons/tfi"
 
 const Projects = () => {
 
-    const projects = [
+    const [projects, setProjects] = useState([
         {
             name: "Videogames",
             img: "asd",
@@ -35,8 +35,8 @@ const Projects = () => {
             name: "Inmobiliaria",
             img: "asd",
             id: 5
-        },
-    ]
+        }
+    ])
 
     //PAGINATION 
     const [page, setPage] = useState(1);
@@ -61,7 +61,7 @@ const Projects = () => {
                     {
                         projects.slice(page - 1, (page - 1) + perPage).map((e) => {
                             return(
-                                <ProjectCard name={e.name} image={e.image} route={e.route} onClick={e.onClick}/>
+                                <ProjectCard name={e.name} img={e.img} id={e.id}/>
                             )
                         })
                     }
