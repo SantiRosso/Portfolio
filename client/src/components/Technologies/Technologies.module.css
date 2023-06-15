@@ -25,9 +25,19 @@
 
 .technologies{
     width: 80%;
+    height: 80%;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+
+.subDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(0, 0, 0, 0.599); */
 }
 
 .img{
