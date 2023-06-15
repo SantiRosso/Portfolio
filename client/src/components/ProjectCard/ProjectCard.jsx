@@ -15,7 +15,7 @@ const ProjectCard = ({name, img, id}) => {
     return(
         <div className={s.card}>
                 <h3>{name}</h3>
-                <img src={img} alt={name} />
+                <img src={img} alt={name} className={s.img}/>
                 <Button2 click={handleClick} name={"Detalle"}/>
         </div>
     )

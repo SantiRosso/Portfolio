@@ -36,7 +36,7 @@ const Projects = () => {
                     {
                         projects.slice(page - 1, (page - 1) + perPage).map((e) => {
                             return(
-                                <ProjectCard name={e.name} img={e.img} id={e.id}/>
+                                <ProjectCard name={e.name} img={e.img[0]} id={e.id}/>
                             )
                         })
                     }
