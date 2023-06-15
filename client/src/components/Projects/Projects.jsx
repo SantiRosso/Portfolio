@@ -43,7 +43,6 @@ const Projects = () => {
                 <Button icon={<TfiAngleRight/>} click={nextPage} disabled={page === max} /* hidden={page === max} *//>
             </div>
         </div>
-        
     )
 }
 

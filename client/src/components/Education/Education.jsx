@@ -47,7 +47,10 @@ const Education = () => {
                             <h1 className={s.h1}>Henry Bootcamp</h1>
                             <h2 className={s.h1}>Buenos Aires, Argentina.</h2>
                             <h3 className={s.h3}>agosto 2022 - enero 2023</h3>
-                            <img src={henry} alt="soyHenry" style={{height:"5vh", width: "15vw"}}/>
+                            <div className={s.tooltipContainer}>
+                                <span className={s.tooltipText}>Click para ver el certificado</span>
+                                <a href="https://certificates.soyhenry.com/cert?id=4424eef6-4057-4582-ad49-5a7d187a80f5" target="blank"><img src={henry} alt="soyHenry" style={{height:"5vh", width: "15vw"}}/></a>
+                            </div>
                         </div>
                         <div>
                             <p>Curso intensivo de desarrollo web full stack. +700 horas de cursado teórico-práctico.</p>
