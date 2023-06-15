@@ -4,6 +4,7 @@ import Footer from "../../Footer/Footer";
 import NavBar from "../../NavBar/NavBar";
 import Projects from "../../Projects/Projects";
 import Technologies from "../../Technologies/Technologies";
+import Education from "../../Education/Education";
 //styles
 import s from "./Home.module.css";
 //images
@@ -19,7 +20,7 @@ const Home = () => {
             </div>
             <Projects/>
             <Technologies/>
-            {/* <Education/> */}
+            <Education/>
             {/* <Contact/> */}
             <Footer/>
         </div>
