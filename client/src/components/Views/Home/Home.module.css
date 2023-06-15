@@ -20,6 +20,7 @@
 }
 
 .row{
+    background-color: #454545;
     position: fixed;
     bottom: 20px;
     left: 20px;
