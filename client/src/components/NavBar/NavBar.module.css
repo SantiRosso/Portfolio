@@ -9,6 +9,7 @@
     justify-content: space-around;
     align-items: center;
     box-shadow: 2px 0px 4px 2px #69b4ff;
+    z-index: 999;
 }
 
 .content{
