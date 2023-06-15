@@ -2,6 +2,7 @@ import Button from "../Button/Button";
 import s from "./NavBar.module.css";
 
 const NavBar = () => {
+    // window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
     return(
         <div className={s.container}>
             <div className={s.title}>

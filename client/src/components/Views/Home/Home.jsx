@@ -6,6 +6,7 @@ import Projects from "../../Projects/Projects";
 import Technologies from "../../Technologies/Technologies";
 import Education from "../../Education/Education";
 import Contact from "../../Contact/Contact";
+import row from "../../../assets/row.png"
 
 //styles
 import s from "./Home.module.css";
@@ -13,6 +14,12 @@ import s from "./Home.module.css";
 import programador from "./programador.png";
 
 const Home = () => {
+
+    const handleClickRow = () => {
+        window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
+    }
+
+
     return(
         <div className={s.container}>
             <NavBar/>
@@ -24,6 +31,9 @@ const Home = () => {
             <Technologies/>
             <Education/>
             <Contact/>
+            <div >
+                <img className={s.row} src={row} alt="flecha" onClick={handleClickRow}/>
+            </div>
             <Footer/>
         </div>
     )
