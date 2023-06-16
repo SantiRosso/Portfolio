@@ -8,32 +8,68 @@ const initialState = {
   projects: [
     {
       name: "Videogames",
-      img: [videojuego1, videojuego2, videojuego3, videojuego4, videojuego5],
+      images: [
+        { img: videojuego1, id: 1 },
+        { img: videojuego2, id: 2 },
+        { img: videojuego3, id: 3 },
+        { img: videojuego4, id: 4 },
+        { img: videojuego5, id: 5 },
+      ],
       id: 1,
     },
     {
       name: "EasyLearning",
-      img: [videojuego1, videojuego2, videojuego3, videojuego4, videojuego5],
+      images: [
+        { img: videojuego1, id: 1 },
+        { img: videojuego2, id: 2 },
+        { img: videojuego3, id: 3 },
+        { img: videojuego4, id: 4 },
+        { img: videojuego5, id: 5 },
+      ],
       id: 2,
     },
     {
       name: "Pokedex",
-      img: [videojuego1, videojuego2, videojuego3, videojuego4, videojuego5],
+      images: [
+        { img: videojuego1, id: 1 },
+        { img: videojuego2, id: 2 },
+        { img: videojuego3, id: 3 },
+        { img: videojuego4, id: 4 },
+        { img: videojuego5, id: 5 },
+      ],
       id: 3,
     },
     {
       name: "Formulario: Coaching Empleo y Capacitación",
-      img: [videojuego1, videojuego2, videojuego3, videojuego4, videojuego5],
+      images: [
+        { img: videojuego1, id: 1 },
+        { img: videojuego2, id: 2 },
+        { img: videojuego3, id: 3 },
+        { img: videojuego4, id: 4 },
+        { img: videojuego5, id: 5 },
+      ],
       id: 4,
     },
     {
       name: "Sinergia ONG",
-      img: [videojuego1, videojuego2, videojuego3, videojuego4, videojuego5],
+      images: [
+        { img: videojuego1, id: 1 },
+        { img: videojuego2, id: 2 },
+        { img: videojuego3, id: 3 },
+        { img: videojuego4, id: 4 },
+        { img: videojuego5, id: 5 },
+      ],
       id: 5,
     },
     {
       name: "Inmobiliaria Martinez",
-      img: [videojuego1, videojuego2, videojuego3, videojuego4, videojuego5],
+      images: [
+        { img: videojuego1, id: 1 },
+        { img: videojuego2, id: 2 },
+        { img: videojuego3, id: 3 },
+        { img: videojuego4, id: 4 },
+        { img: videojuego5, id: 5 },
+      ],
       id: 6,
     },
     // {
