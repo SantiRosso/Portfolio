@@ -35,6 +35,9 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    /* box-shadow: 0px 0px 4px 2px #69b4ff; */
+    border-top: 1px solid #69b4ff;
+    padding-top: 5vh;
 }
 
 .selectedImage{
