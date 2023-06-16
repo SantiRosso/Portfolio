@@ -24,7 +24,6 @@ const ProjectDetail = () => {
     // },[image])
 
     const handleClick = (e) => {
-        console.log("tttt", e.target.src)
         setImage({image:e.target.src, id:e.target.id})
     }
 
@@ -45,21 +44,35 @@ const ProjectDetail = () => {
         <div>
             <div className={s.container}>
                 <NavBar2/>
-                <h1>{project[0].name}</h1>
-                <p>{project[0].description}</p>
-                <h3>Creadores:</h3>
-                <div>
-                    {
-                        project[0].creators.map((e) => {
+                <div className={s.info}>
+                    <h1>{project[0].name}</h1>
+                    <p>{project[0].description}</p>
+                    <h3>Creadores:</h3>
+                    {/* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="asd" /> */}
+                    <div className={s.creators}>
+                        {
+                            project[0]?.creators?.map((e) => {
+                                return(
+                                    <div className={s.creator}>
+                                        <h6>{e.name}</h6>
+                                        <a href={`https://github.com/${e.github}`} target="blanck" style={{textDecoration: "none", color: "#69b4ff"}}>Github</a>
+                                    </div>
+                                    )
+                            })
+                        }
+                    </div>
+                    <div className={s.technologies}>
+                        {
+                           project[0]?.technologies?.map((e) => {
                             return(
-                                <div>
-                                    <h6>{e.name}</h6>
-                                    <a href={`https://github.com/${e.github}`} target="blanck">Github</a>
-                                </div>
-                                )
-                        })
-                    }
+                                <img src={e} alt="ícono de la tecnología" className={s.technology}/>
+                            )
+                            // console.log(e)
+                           }) 
+                        }
+                    </div>
                 </div>
+                
                 <div className={s.carrouselContainer}>
                     <div className={s.divSelectedImage}>
                         <img src={image.image} alt="Imagen seleccionada" className={s.selectedImage}/>
@@ -68,7 +81,6 @@ const ProjectDetail = () => {
                         <Button icon={<TfiAngleLeft/>} click={previousPage} disabled={page === 1} /* hidden={page === 1} *//>
                         {
                             project[0].images.slice(page - 1, (page - 1) + perPage).map((e) => {
-                                console.log("asdasd",e.img)
                                 return(
                                     <img className={e.id == image?.id ? "imgActive" : "img"} id={e.id} src={e.img} alt="Imagen del proyecto" onClick={handleClick}/>
                                 )
