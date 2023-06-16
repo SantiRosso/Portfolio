@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 //components
-import NavBar from "../../NavBar/NavBar";
+import NavBar2 from "../../NavBar2/NavBar2";
 import Button from "../../Button/Button";
 import Footer from "../../Footer/Footer";
 //style
@@ -44,7 +44,7 @@ const ProjectDetail = () => {
     return(
         <div>
             <div className={s.container}>
-                <NavBar/>
+                <NavBar2/>
                 <h1>{project[0].name}</h1>
                 <div className={s.carrouselContainer}>
                     <div className={s.divSelectedImage}>

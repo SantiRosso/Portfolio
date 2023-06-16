@@ -4,7 +4,6 @@ import s from "./NavBar.module.css";
 const NavBar = () => {
     
     const handleClick = (id) => {
-        console.log(id)
         const element = document.getElementById(id);
         const position = element.getBoundingClientRect();
         window.scrollTo({ top: position.top, left: position.left, behavior: 'smooth' })
