@@ -46,6 +46,20 @@ const ProjectDetail = () => {
             <div className={s.container}>
                 <NavBar2/>
                 <h1>{project[0].name}</h1>
+                <p>{project[0].description}</p>
+                <h3>Creadores:</h3>
+                <div>
+                    {
+                        project[0].creators.map((e) => {
+                            return(
+                                <div>
+                                    <h6>{e.name}</h6>
+                                    <a href={`https://github.com/${e.github}`} target="blanck">Github</a>
+                                </div>
+                                )
+                        })
+                    }
+                </div>
                 <div className={s.carrouselContainer}>
                     <div className={s.divSelectedImage}>
                         <img src={image.image} alt="Imagen seleccionada" className={s.selectedImage}/>

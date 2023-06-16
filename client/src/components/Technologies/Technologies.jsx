@@ -79,6 +79,7 @@ const Technologies = () => {
                             <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
                         </div>
                         {/* <span>Chakra</span> */}
+                        {/* <span>MUI</span> */}
                         <div className={s.tooltipContainer}>
                             <span className={s.tooltipText}>Chart.js</span>
                             <img className={s.img} src="https://www.chartjs.org/media/logo-title.svg" />
