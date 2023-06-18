@@ -16,7 +16,15 @@ const initialState = {
         { img: videojuego5, id: 5 },
       ],
       id: 1,
-      description: "asd",
+      description: "Desarrollo individual de una API REST en Node.js.",
+      repository: "",
+      deploy: "",
+      // Tecnologías: HTML, CSS, JavaScript, Node.js,
+      // Express, Sequelize,
+      // PostgresSQL, React y Redux.
+      // Repositorio: https://github.com/SantiRosso/PI-
+      // Videogames
+      // Deploy: https://pi-videogames-pied.vercel.app",
       technologies: [
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
@@ -44,7 +52,17 @@ const initialState = {
         { img: videojuego5, id: 5 },
       ],
       id: 2,
-      description: "asd",
+      description:
+        "Desarrollo grupal de una API REST en Node.js bajo la metogología SCRUM con un equipo de 7 devs y 1 lider técnico y una duración de 4 semanas.",
+      repository: "",
+      deploy: "",
+      // Tecnologías: JavaScript, Node.js, Express, Sequelize,
+      // PostgresSQL, React, Redux, Firebase, Paypal, Chakra
+      // UI, MUI y Chart.js.
+      // Repositorio:
+      // https://github.com/diazjoaquin/EasyLearning-FP.git
+      // Repositorio Admin:
+      // https://github.com/diazjoaquin/Admin-EasyLearning",
       technologies: [
         /* revisar a partir de acá */
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
@@ -82,6 +100,8 @@ const initialState = {
       ],
       id: 3,
       description: "asd",
+      repository: "",
+      deploy: "",
       technologies: [
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
@@ -110,6 +130,8 @@ const initialState = {
       ],
       id: 4,
       description: "asd",
+      repository: "",
+      deploy: "",
       technologies: [
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
@@ -143,6 +165,8 @@ const initialState = {
       ],
       id: 5,
       description: "asd",
+      repository: "",
+      deploy: "",
       technologies: [
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
@@ -176,6 +200,8 @@ const initialState = {
       ],
       id: 6,
       description: "asd",
+      repository: "",
+      deploy: "",
       technologies: [
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
@@ -209,6 +235,8 @@ const initialState = {
     //    ],
     //   id: 1,
     //   description: "asd",
+    //   repository: "",
+    //   deploy: "",
     //   technologies: [
     //   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
     //   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
@@ -237,6 +265,8 @@ const initialState = {
     //    ],
     //   id: 1,
     //   description: "asd",
+    //   repository: "",
+    //   deploy: "",
     //   technologies: [
     //   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
     //   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
@@ -265,6 +295,8 @@ const initialState = {
     //    ],
     //   id: 1,
     //   description: "asd",
+    //   repository: "",
+    //   deploy: "",
     //   technologies: [
     //   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
     //   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
@@ -293,6 +325,8 @@ const initialState = {
     //    ],
     //   id: 1,
     //   description: "asd",
+    //   repository: "",
+    //   deploy: "",
     //   technologies: [
     //   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
     //   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
@@ -321,6 +355,8 @@ const initialState = {
     //    ],
     //   id: 1,
     //   description: "asd",
+    //   repository: "",
+    //   deploy: "",
     //   technologies: [
     //   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
     //   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
