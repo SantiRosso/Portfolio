@@ -1,3 +1,5 @@
+import { GET_PROJECT_BY_ID } from "./actions.js";
+
 import videojuego1 from "../assets/images/videogames1.jpg";
 import videojuego2 from "../assets/images/videogames2.jpeg";
 import videojuego3 from "../assets/images/videogames3.jpeg";
@@ -365,10 +367,18 @@ const initialState = {
     //   creators: [{ name: "Santiago Rosso", github: "SantiRosso" }, { name: "Lucas Camacho", github: "Lucascserrate"}],
     // },
   ],
+  project: [],
 };
 
 const rootReducer = (state = initialState, action) => {
   switch (action.type) {
+    case GET_PROJECT_BY_ID:
+      let proyecto = state.projects.filter((e) => e.id == action.payload);
+      console.log("proyecto", proyecto);
+      return {
+        ...state,
+        project: projecto,
+      };
     default:
       return { ...state };
   }
