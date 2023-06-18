@@ -1,7 +1,7 @@
 import { useNavigate, useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
-import { getProjectById } from "../../redux/actions";
+import { getProjectById, cleanState } from "../../redux/actions";
 //styles
 import s from "./NavBar2.module.css";
 
@@ -13,12 +13,13 @@ const NavBar2 = () => {
     const project = useSelector((state) => state.project)
 
     useEffect(()=> {
-        if(!project){
+        if(!project.length){
             dispatch(getProjectById(id));
         }
-    })
-
-    console.log(project)
+        return () =>{
+         dispatch(cleanState())
+        }   
+    }, [id])
 
     const handleClick = () => {
         navigate("/")
@@ -30,7 +31,10 @@ const NavBar2 = () => {
                 <span onClick={handleClick}>Santiago Rosso</span>
             </div>
             <div className={s.content}>
-                <a className={s.link} href="#" target="blanck"><span className={s.span}>Link del proyecto</span></a>
+                <div className={s.tooltipContainer}>
+                    <span className={s.tooltipText}>Es posible que el deploy del proyecto se encuentre caído</span>
+                    <a className={s.link} href={project[0]?.deploy} target="blanck"><span className={s.span}>Link del proyecto</span></a>
+                </div>
             </div>
         </div>
     )

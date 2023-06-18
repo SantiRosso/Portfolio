@@ -1,4 +1,4 @@
-import { GET_PROJECT_BY_ID } from "./actions.js";
+import { GET_PROJECT_BY_ID, CLEAN_STATE } from "./actions.js";
 
 import videojuego1 from "../assets/images/videogames1.jpg";
 import videojuego2 from "../assets/images/videogames2.jpeg";
@@ -374,10 +374,14 @@ const rootReducer = (state = initialState, action) => {
   switch (action.type) {
     case GET_PROJECT_BY_ID:
       let proyecto = state.projects.filter((e) => e.id == action.payload);
-      console.log("proyecto", proyecto);
       return {
         ...state,
-        project: projecto,
+        project: proyecto,
+      };
+    case CLEAN_STATE:
+      return {
+        ...state,
+        project: [],
       };
     default:
       return { ...state };
