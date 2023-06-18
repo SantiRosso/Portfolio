@@ -17,14 +17,8 @@ const initialState = {
       ],
       id: 1,
       description: "Desarrollo individual de una API REST en Node.js.",
-      repository: "",
-      deploy: "",
-      // Tecnologías: HTML, CSS, JavaScript, Node.js,
-      // Express, Sequelize,
-      // PostgresSQL, React y Redux.
-      // Repositorio: https://github.com/SantiRosso/PI-
-      // Videogames
-      // Deploy: https://pi-videogames-pied.vercel.app",
+      repository: "https://github.com/SantiRosso/PI-Videogames",
+      deploy: "https://pi-videogames-pied.vercel.app/videogames",
       technologies: [
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
@@ -55,14 +49,9 @@ const initialState = {
       description:
         "Desarrollo grupal de una API REST en Node.js bajo la metogología SCRUM con un equipo de 7 devs y 1 lider técnico y una duración de 4 semanas.",
       repository: "",
-      deploy: "",
-      // Tecnologías: JavaScript, Node.js, Express, Sequelize,
-      // PostgresSQL, React, Redux, Firebase, Paypal, Chakra
-      // UI, MUI y Chart.js.
-      // Repositorio:
-      // https://github.com/diazjoaquin/EasyLearning-FP.git
-      // Repositorio Admin:
-      // https://github.com/diazjoaquin/Admin-EasyLearning",
+      deploy: "https://easy-learning-414mpg2kj-fran3003.vercel.app/",
+      // deploy: "https://easylearning-fp.web.app/",
+      // deploy: "",
       technologies: [
         /* revisar a partir de acá */
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
@@ -86,7 +75,7 @@ const initialState = {
         { name: "Joaquin Díaz", github: "diazjoaquin" },
         { name: "German Golder", github: "ggolder22" },
         { name: "Benjamin Gagnolo", github: "BenjaminGagnolo" },
-        { name: "Bianca", github: "siasktv" },
+        { name: "Bianca Benitez", github: "siasktv" },
       ],
     },
     {
@@ -100,8 +89,8 @@ const initialState = {
       ],
       id: 3,
       description: "asd",
-      repository: "",
-      deploy: "",
+      repository: "https://github.com/SantiRosso/PI-Pokemon",
+      deploy: "https://pi-pokemon-xi-wine.vercel.app/",
       technologies: [
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
@@ -130,8 +119,9 @@ const initialState = {
       ],
       id: 4,
       description: "asd",
-      repository: "",
-      deploy: "",
+      repository:
+        "https://github.com/GroupFiveDev/Formulario-Coaching-empleo-capacitacion",
+      deploy: "https://formulario-taupe-nine.vercel.app/",
       technologies: [
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
@@ -165,7 +155,7 @@ const initialState = {
       ],
       id: 5,
       description: "asd",
-      repository: "",
+      repository: "https://github.com/GroupFiveDev/Sinergia-ONG",
       deploy: "",
       technologies: [
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
@@ -200,8 +190,8 @@ const initialState = {
       ],
       id: 6,
       description: "asd",
-      repository: "",
-      deploy: "",
+      repository: "https://github.com/GroupFiveDev/Martinez-Inmobiliaria-SRL",
+      deploy: "https://martineznessicampos.com/",
       technologies: [
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
@@ -235,7 +225,7 @@ const initialState = {
     //    ],
     //   id: 1,
     //   description: "asd",
-    //   repository: "",
+    //   repository: "https://github.com/SantiRosso/prueba-tecnica-pokemon",
     //   deploy: "",
     //   technologies: [
     //   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
@@ -265,7 +255,7 @@ const initialState = {
     //    ],
     //   id: 1,
     //   description: "asd",
-    //   repository: "",
+    //   repository: "https://github.com/Lucascserrate/minimalista",
     //   deploy: "",
     //   technologies: [
     //   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
@@ -295,7 +285,7 @@ const initialState = {
     //    ],
     //   id: 1,
     //   description: "asd",
-    //   repository: "",
+    //   repository: "https://github.com/SantiRosso/Turnero",
     //   deploy: "",
     //   technologies: [
     //   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
@@ -325,7 +315,7 @@ const initialState = {
     //    ],
     //   id: 1,
     //   description: "asd",
-    //   repository: "",
+    //   repository: "https://github.com/SantiRosso/To-do",
     //   deploy: "",
     //   technologies: [
     //   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
@@ -355,8 +345,8 @@ const initialState = {
     //    ],
     //   id: 1,
     //   description: "asd",
-    //   repository: "",
-    //   deploy: "",
+    //   repository: "https://github.com/SantiRosso/ACHEBEO",
+    //   deploy: "https://achebeo.vercel.app/",
     //   technologies: [
     //   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
     //   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
