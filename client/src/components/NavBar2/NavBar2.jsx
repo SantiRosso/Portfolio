@@ -32,7 +32,7 @@ const NavBar2 = () => {
             </div>
             <div className={s.content}>
                 <div className={s.tooltipContainer}>
-                    <span className={s.tooltipText}>Es posible que el deploy del proyecto se encuentre caído</span>
+                    <span className={s.tooltipText}>Es posible que el deploy del proyecto se encuentre caído.</span>
                     <a className={s.link} href={project[0]?.deploy} target="blanck"><span className={s.span}>Link del proyecto</span></a>
                 </div>
             </div>

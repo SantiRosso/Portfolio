@@ -55,7 +55,6 @@ const initialState = {
       // deploy: "https://easylearning-fp.web.app/",
       // deploy: "",
       technologies: [
-        /* revisar a partir de acá */
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
@@ -68,16 +67,18 @@ const initialState = {
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
         "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" /* "toastify", */ /* "Render/Vercel", */,
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+        "https://www.chartjs.org/media/logo-title.svg" /* "Chakra" */ /* "Render/Vercel" */ /* "axios" */,
+        ,
       ],
       creators: [
         { name: "Santiago Rosso", github: "SantiRosso" },
         { name: "Franco Rantucho", github: "Fran3003" },
-        { name: "Fermin Solaberrieta", github: "fermin234" },
-        { name: "Joaquin Díaz", github: "diazjoaquin" },
+        { name: "Fermín Solaberrieta", github: "fermin234" },
+        { name: "Joaquín Díaz", github: "diazjoaquin" },
         { name: "German Golder", github: "ggolder22" },
-        { name: "Benjamin Gagnolo", github: "BenjaminGagnolo" },
-        { name: "Bianca Benitez", github: "siasktv" },
+        { name: "Benjamín Gagnolo", github: "BenjaminGagnolo" },
+        { name: "Bianca Benítez", github: "siasktv" },
       ],
     },
     {
@@ -94,6 +95,7 @@ const initialState = {
       repository: "https://github.com/SantiRosso/PI-Pokemon",
       deploy: "https://pi-pokemon-xi-wine.vercel.app/",
       technologies: [
+        /* revisar a partir de acá */
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
@@ -142,7 +144,7 @@ const initialState = {
       creators: [
         { name: "Santiago Rosso", github: "SantiRosso" },
         { name: "Franco Rantucho", github: "Fran3003" },
-        { name: "Fermin Solaberrieta", github: "fermin234" },
+        { name: "Fermín Solaberrieta", github: "fermin234" },
         { name: "Paul Esperon", github: "PaulBlack91" },
       ],
     },
@@ -177,7 +179,7 @@ const initialState = {
       creators: [
         { name: "Santiago Rosso", github: "SantiRosso" },
         { name: "Franco Rantucho", github: "Fran3003" },
-        { name: "Fermin Solaberrieta", github: "fermin234" },
+        { name: "Fermín Solaberrieta", github: "fermin234" },
         ,
       ],
     },
@@ -212,7 +214,7 @@ const initialState = {
       creators: [
         { name: "Santiago Rosso", github: "SantiRosso" },
         { name: "Franco Rantucho", github: "Fran3003" },
-        { name: "Fermin Solaberrieta", github: "fermin234" },
+        { name: "Fermín Solaberrieta", github: "fermin234" },
         ,
       ],
     },
