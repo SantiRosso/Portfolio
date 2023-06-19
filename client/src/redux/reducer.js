@@ -5,13 +5,19 @@ import videojuego2 from "../assets/images/videogames2.jpeg";
 import videojuego3 from "../assets/images/videogames3.jpeg";
 import videojuego4 from "../assets/images/videogames4.jpeg";
 import videojuego5 from "../assets/images/videogames5.jpeg";
-import EasyLearning1 from "../assets/images/EasyLearning1.jpeg";
-import EasyLearning2 from "../assets/images/EasyLearning2.jpeg";
-import EasyLearning3 from "../assets/images/EasyLearning3.jpeg";
-import EasyLearning4 from "../assets/images/EasyLearning4.jpeg";
-import EasyLearning5 from "../assets/images/EasyLearning5.jpeg";
-import EasyLearning6 from "../assets/images/EasyLearning6.jpeg";
-import EasyLearning7 from "../assets/images/EasyLearning7.jpeg";
+import EasyLearning1 from "../assets/images/EasyLearning1.jpg";
+import EasyLearning2 from "../assets/images/EasyLearning2.jpg";
+import EasyLearning3 from "../assets/images/EasyLearning3.jpg";
+import EasyLearning4 from "../assets/images/EasyLearning4.jpg";
+import EasyLearning5 from "../assets/images/EasyLearning5.jpg";
+import EasyLearning6 from "../assets/images/EasyLearning6.jpg";
+import EasyLearning7 from "../assets/images/EasyLearning7.jpg";
+import Pokedex1 from "../assets/images/Pokedex1.jpg";
+import Pokedex2 from "../assets/images/Pokedex2.jpg";
+import Pokedex3 from "../assets/images/Pokedex3.jpg";
+import Pokedex4 from "../assets/images/Pokedex4.jpg";
+import Pokedex5 from "../assets/images/Pokedex5.jpg";
+import Pokedex6 from "../assets/images/Pokedex6.jpg";
 
 const initialState = {
   projects: [
@@ -22,7 +28,7 @@ const initialState = {
         { img: videojuego2, id: 2, description: "Home" },
         { img: videojuego3, id: 3, description: "Detalle del juego" },
         { img: videojuego4, id: 4, description: "Crear un juego" },
-        { img: videojuego5, id: 5, description: "Login" },
+        { img: videojuego5, id: 5, description: "LogIn" },
       ],
       id: 1,
       description: "Desarrollo individual de una API REST en Node.js.",
@@ -93,11 +99,12 @@ const initialState = {
     {
       name: "Pokedex",
       images: [
-        { img: videojuego1, id: 1, description: "" },
-        { img: videojuego2, id: 2, description: "" },
-        { img: videojuego3, id: 3, description: "" },
-        { img: videojuego4, id: 4, description: "" },
-        { img: videojuego5, id: 5, description: "" },
+        { img: Pokedex1, id: 1, description: "Home" },
+        { img: Pokedex2, id: 2, description: "Todos los Pokemon" },
+        { img: Pokedex3, id: 3, description: "Detalle de un Pokemon" },
+        { img: Pokedex4, id: 4, description: "Crear un Pokemon" },
+        { img: Pokedex5, id: 5, description: "LogIn" },
+        { img: Pokedex6, id: 6, description: "SignUp" },
       ],
       id: 3,
       description: "asd",
