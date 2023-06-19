@@ -17,10 +17,15 @@ const ProjectDetail = () => {
     const projects = useSelector((state) => state.projects);
     const project = projects?.filter((e) => e.id == id)
 
-    const [image, setImage] = useState({image: project[0].images[0].img, id:project[0].images[0].id })
+    const [image, setImage] = useState(
+        {
+            image: project[0].images[0].img,
+            id: project[0].images[0].id
+        }
+    )
 
     const handleClick = (e) => {
-        setImage({image:e.target.src, id:e.target.id})
+        setImage({image: e.target.src, id: e.target.id})
     }
 
     //PAGINATION 
@@ -76,7 +81,10 @@ const ProjectDetail = () => {
                         {
                             project[0].images.slice(page - 1, (page - 1) + perPage).map((e) => {
                                 return(
-                                    <img className={e.id == image?.id ? "imgActive" : "img"} id={e.id} src={e.img} alt="Imagen del proyecto" onClick={handleClick}/>
+                                    <div className={s.tooltipContainer}>
+                                        <span className={s.tooltipText}>{e.description}</span>
+                                        <img className={e.id == image?.id ? "imgActive" : "img"} id={e.id} src={e.img} alt="Imagen del proyecto" onClick={handleClick}/>
+                                    </div>
                                 )
                             })
                         }
