@@ -18,6 +18,10 @@ import Pokedex3 from "../assets/images/Pokedex3.jpg";
 import Pokedex4 from "../assets/images/Pokedex4.jpg";
 import Pokedex5 from "../assets/images/Pokedex5.jpg";
 import Pokedex6 from "../assets/images/Pokedex6.jpg";
+import FormularioCEC1 from "../assets/images/FormularioCEC1.jpg";
+import FormularioCEC2 from "../assets/images/FormularioCEC2.jpg";
+import FormularioCEC3 from "../assets/images/FormularioCEC3.jpg";
+import FormularioCEC4 from "../assets/images/FormularioCEC4.jpg";
 
 const initialState = {
   projects: [
@@ -130,11 +134,15 @@ const initialState = {
     {
       name: "Formulario: Coaching Empleo y Capacitación",
       images: [
-        { img: videojuego1, id: 1, description: "" },
-        { img: videojuego2, id: 2, description: "" },
-        { img: videojuego3, id: 3, description: "" },
-        { img: videojuego4, id: 4, description: "" },
-        { img: videojuego5, id: 5, description: "" },
+        { img: FormularioCEC1, id: 1, description: "Datos personales" },
+        { img: FormularioCEC2, id: 2, description: "Cuestionario 1" },
+        { img: FormularioCEC3, id: 3, description: "Gráfica y propuestas" },
+        {
+          img: FormularioCEC4,
+          id: 4,
+          description: "Mail que le llega al usuario",
+        },
+        // { img: FormularioCEC5, id: 5, description: "Mail que le llega a la coach" },
       ],
       id: 4,
       description: "asd",
