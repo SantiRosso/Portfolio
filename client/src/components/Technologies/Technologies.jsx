@@ -66,6 +66,10 @@ const Technologies = () => {
                     </div>
                     <div className={s.subDiv}>
                         <div className={s.tooltipContainer}>
+                            <span className={s.tooltipText}>Next.js</span>
+                            <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" />
+                        </div>
+                        <div className={s.tooltipContainer}>
                             <span className={s.tooltipText}>Firebase</span>
                             <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" />
                         </div>

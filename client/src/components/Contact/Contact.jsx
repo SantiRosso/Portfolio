@@ -28,6 +28,9 @@ const Contact = () => {
                     <span>Linkedin: linkedin.com/in/santiago-rosso-421484227</span>
                 </div>
             </div>
+            <div className={s.p}>
+                <p>© 2023 | Diseñado por Santiago Rosso.</p>
+            </div>
         </div>
     )
 }

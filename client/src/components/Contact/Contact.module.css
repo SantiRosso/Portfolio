@@ -23,3 +23,10 @@
 .icon{
     margin-right: 5px;
 }
+
+.p{
+    border-top: 1px solid #69b4ff;
+    position: relative;
+    bottom: -15px;
+    /* width: 80%; */
+}
