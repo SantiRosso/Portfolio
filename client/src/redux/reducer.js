@@ -5,6 +5,13 @@ import videojuego2 from "../assets/images/videogames2.jpeg";
 import videojuego3 from "../assets/images/videogames3.jpeg";
 import videojuego4 from "../assets/images/videogames4.jpeg";
 import videojuego5 from "../assets/images/videogames5.jpeg";
+import EasyLearning1 from "../assets/images/EasyLearning1.jpeg";
+import EasyLearning2 from "../assets/images/EasyLearning2.jpeg";
+import EasyLearning3 from "../assets/images/EasyLearning3.jpeg";
+import EasyLearning4 from "../assets/images/EasyLearning4.jpeg";
+import EasyLearning5 from "../assets/images/EasyLearning5.jpeg";
+import EasyLearning6 from "../assets/images/EasyLearning6.jpeg";
+import EasyLearning7 from "../assets/images/EasyLearning7.jpeg";
 
 const initialState = {
   projects: [
@@ -41,11 +48,13 @@ const initialState = {
     {
       name: "EasyLearning",
       images: [
-        { img: videojuego1, id: 1, description: "" },
-        { img: videojuego2, id: 2, description: "" },
-        { img: videojuego3, id: 3, description: "" },
-        { img: videojuego4, id: 4, description: "" },
-        { img: videojuego5, id: 5, description: "" },
+        { img: EasyLearning1, id: 1, description: "Home" },
+        { img: EasyLearning2, id: 2, description: "Home" },
+        { img: EasyLearning3, id: 3, description: "Home" },
+        { img: EasyLearning4, id: 4, description: "SignUp" },
+        { img: EasyLearning5, id: 5, description: "LogIn" },
+        { img: EasyLearning6, id: 6, description: "Cursos" },
+        { img: EasyLearning7, id: 7, description: "Contact" },
       ],
       id: 2,
       description:
