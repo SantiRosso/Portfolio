@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 //components
 import NavBar2 from "../../NavBar2/NavBar2";
 import Button from "../../Button/Button";
-import Footer from "../../Footer/Footer";
+import Contact from "../../Contact/Contact";
 //style
 import s from "./ProjectDetail.module.css";
 import "./imgActive.css";
@@ -92,29 +92,10 @@ const ProjectDetail = () => {
                     </div>
                 </div>
             </div>
-            <Footer/>
+            <Contact/>
         </div>
         
     )
 }
 
 export default ProjectDetail;
-
-//     return(
-//         <div className={s.container} id="projects">
-//             <div>
-//                 <h1>Proyectos</h1>
-//             </div>
-//             <div className={s.carrousel}>
-//                 <Button icon={<TfiAngleLeft/>} click={previousPage} disabled={page === 1} /* hidden={page === 1} *//>
-//                     {
-//                         projects.slice(page - 1, (page - 1) + perPage).map((e) => {
-//                             return(
-//                                 <ProjectCard name={e.name} img={e.img[0]} id={e.id}/>
-//                             )
-//                         })
-//                     }
-//                 <Button icon={<TfiAngleRight/>} click={nextPage} disabled={page === max} /* hidden={page === max} *//>
-//             </div>
-//         </div>
-//     )
