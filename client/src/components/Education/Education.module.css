@@ -63,7 +63,7 @@
 @media (max-width: 1366px) {
     .container{
         background-color: #454545;
-        height: 40vh;
+        height: max-content;
         width: 70%;
         padding: 10px;
         display: flex;
