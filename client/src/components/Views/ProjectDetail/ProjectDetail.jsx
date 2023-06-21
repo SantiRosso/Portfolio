@@ -48,7 +48,7 @@ const ProjectDetail = () => {
                 <div className={s.info}>
                     <h1>{project[0].name}</h1>
                     <a href={project[0]?.repository} target="blanck" style={{textDecoration: "none", color: "#69b4ff"}}>Repositorio del proyecto</a>
-                    <p>{project[0].description}</p>
+                    <p className={s.p}>{project[0].description}</p>
                     <h3>Creadores:</h3>
                     <div className={s.creators}>
                         {
