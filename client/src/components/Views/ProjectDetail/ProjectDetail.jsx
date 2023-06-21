@@ -13,6 +13,7 @@ import {TfiAngleLeft, TfiAngleRight} from "react-icons/tfi"
 
 const ProjectDetail = () => {
 
+    const width = window.innerWidth
     const id = useParams().id;
     const projects = useSelector((state) => state.projects);
     const project = projects?.filter((e) => e.id == id)
@@ -30,7 +31,7 @@ const ProjectDetail = () => {
 
     //PAGINATION 
     const [page, setPage] = useState(1);
-    const [perPage] = useState(3);
+    const [perPage] = useState(width > 800 ? 3 : 2);
     let max = Math.ceil(project[0].images.length - perPage + 1 / perPage)
 
     const nextPage = () => {
@@ -52,9 +53,9 @@ const ProjectDetail = () => {
                     <h3>Creadores:</h3>
                     <div className={s.creators}>
                         {
-                            project[0]?.creators?.map((e) => {
+                            project[0]?.creators?.map((e, i) => {
                                 return(
-                                    <div className={s.creator}>
+                                    <div key={i} className={s.creator}>
                                         <h6>{e.name}</h6>
                                         <a href={`https://github.com/${e.github}`} target="blanck" style={{textDecoration: "none", color: "#69b4ff"}}>Github</a>
                                     </div>
