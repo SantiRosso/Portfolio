@@ -127,7 +127,7 @@
     }
 } 
 
-@media (max-width: 412px){
+@media (max-width: 800px){
     .container{
         font-size: xx-small;
         position: fixed;
