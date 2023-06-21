@@ -32,7 +32,7 @@ const Projects = () => {
                 <h1>Proyectos</h1>
             </div>
             <div className={s.carrousel}>
-                <Button icon={<TfiAngleLeft/>} click={previousPage} disabled={page === 1} /* hidden={page === 1} *//>
+                <Button icon={<TfiAngleLeft/>} click={previousPage} disabled={page === 1} />
                     {
                         projects.slice(page - 1, (page - 1) + perPage).map((e) => {
                             return(
@@ -40,7 +40,7 @@ const Projects = () => {
                             )
                         })
                     }
-                <Button icon={<TfiAngleRight/>} click={nextPage} disabled={page === max} /* hidden={page === max} *//>
+                <Button icon={<TfiAngleRight/>} click={nextPage} disabled={page === max} />
             </div>
         </div>
     )

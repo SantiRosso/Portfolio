@@ -13,7 +13,7 @@
     }
 }
 
-@media (max-width: 1920px) {
+@media (max-width: 800px) {
     .img{
         height: 10vh;
         width: 25vw;

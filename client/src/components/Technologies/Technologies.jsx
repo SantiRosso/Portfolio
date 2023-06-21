@@ -32,7 +32,6 @@ const Technologies = () => {
                         {/* <span>Typescript</span> */}
                         <div className={s.tooltipContainer}>
                             <span className={s.tooltipText}>React</span>
-                            {/* <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /> */}
                             <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
                         </div>
                         <div className={s.tooltipContainer}>
