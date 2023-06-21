@@ -46,6 +46,7 @@
         border-radius: 5px;
         height: 60vh;
         width: 90%;
+        object-fit: cover;
     }
 
     .divSelectedImage{
@@ -159,6 +160,7 @@
         border-radius: 5px;
         height: 30vh;
         width: 90%;
+        object-fit: cover;
     }
 
     .divSelectedImage{
