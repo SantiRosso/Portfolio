@@ -224,7 +224,8 @@ const initialState = {
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
         "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" /* "ractIcons", */ /* "hostinger", */ /* Multer y Cloudinary */,
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" /* "ractIcons", */ /* "hostinger", */ /* Multer y Cloudinary */ /* google maps api*/,
+        ,
       ],
       creators: [
         { name: "Santiago Rosso", github: "SantiRosso" },
