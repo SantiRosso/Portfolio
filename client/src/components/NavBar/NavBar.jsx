@@ -13,7 +13,7 @@ const NavBar = () => {
         <div className={s.container}>
             <div className={s.title}>
                 <span>Santiago Rosso</span>
-                <a href="../../assets/pdf/CV Santiago Rosso.pdf"  download="CV Santiago Rosso.pdf" className={s.cv}>
+                <a href="../../../public/assets/pdf/CV Santiago Rosso.pdf"  download="CV Santiago Rosso.pdf" className={s.cv}>
                     Descargar CV 
                 </a>
             </div>
