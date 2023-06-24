@@ -13,6 +13,9 @@ const NavBar = () => {
         <div className={s.container}>
             <div className={s.title}>
                 <span>Santiago Rosso</span>
+                <a download href="./assets/pdf/Curriculum-Santiago-Rosso-20-02-2023.pdf" className={s.cv}>
+                    Descargar CV 
+                </a>
             </div>
             <div className={s.content}>
                 <a /* href="#about" */ className={s.link} onClick={()=>handleClick("about")}><span className={s.span}>Sobre mi</span></a>
