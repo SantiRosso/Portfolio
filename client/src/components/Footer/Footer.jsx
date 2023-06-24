@@ -14,7 +14,7 @@ const Footer = () => {
             <a href="https://github.com/SantiRosso" title="github"><img src={github} width="30rm" alt="linkedin" /></a>
             <a href="https://www.instagram.com/santi.rosso/" title="instagram"><img src={instagram} width="30rm" alt="linkedin" /></a>
             <a href="#" title="portfolio"><img src={portfolio} width="30rm" alt="linkedin" /></a>
-            {/* <a href="" title="whatsapp"> */}<img src={whatsapp} width="30rm" alt="whatsapp" />{/* </a> */}
+            <a href="https://api.whatsapp.com/send?phone=+5493515336418&text=Hola, Santiago!" target="_blank" title="whatsapp"><img src={whatsapp} width="30rm" alt="whatsapp" /></a>
         </div>
     )
 }
