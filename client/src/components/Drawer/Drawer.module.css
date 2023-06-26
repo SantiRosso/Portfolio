@@ -1,0 +1,32 @@
+.drawer{
+    position: fixed;
+    top: 5vh;
+    width: 5vw;
+    height: 20vh;
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #69b4ff;
+    border-radius: 5px;
+}
+
+.link{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.span{
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.span:hover{
+    background-color: #006fff;
+}
+
+.button{
+
+}

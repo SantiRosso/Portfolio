@@ -1,4 +1,5 @@
 import Button from "../Button/Button";
+import Drawer from "../Drawer/Drawer";
 import s from "./NavBar.module.css";
 
 const NavBar = () => {
@@ -29,7 +30,7 @@ const NavBar = () => {
                         <a className={s.link} onClick={()=>handleClick("contact")}><span className={s.span}>Contacto</span></a>
                     </div>
                 : 
-                <button>desplegable</button>
+                <Drawer/>
             }
             
         </div>
