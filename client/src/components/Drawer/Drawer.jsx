@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useModal } from "../../hooks/useModal";
-import Button from "../Button/Button";
+//components
+import SwitchHamburger from "../SwitchHamburger/SwitchHamburger"
 //styles
 import s from "./Drawer.module.css";
 
@@ -21,7 +22,7 @@ const Drawer = () => {
 
     return(
         <div>
-            <button className={s.button} onClick={handleClickDrawer}>Desplegable</button>
+            <SwitchHamburger click={handleClickDrawer}/>
             {
                 drawer && 
                 <div className={s.drawer}>
