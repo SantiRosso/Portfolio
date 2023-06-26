@@ -101,3 +101,12 @@
     }
 }
 
+@media (max-width: 500px){
+    .title{
+        width: 70%;
+    }
+
+    .content{
+        width: 30%;
+    }
+}

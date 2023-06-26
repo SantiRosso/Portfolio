@@ -1,6 +1,7 @@
 .drawer{
     position: fixed;
     top: 5vh;
+    right: 1vh;
     height: 20vh;
     width: min-content;
     display: flex;
