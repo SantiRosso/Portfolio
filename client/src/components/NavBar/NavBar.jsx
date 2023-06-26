@@ -2,6 +2,8 @@ import Button from "../Button/Button";
 import s from "./NavBar.module.css";
 
 const NavBar = () => {
+
+    const width = window.innerWidth
     
     const handleClick = (id) => {
         const element = document.getElementById(id);
@@ -17,13 +19,19 @@ const NavBar = () => {
                     Descargar CV 
                 </a>
             </div>
-            <div className={s.content}>
-                <a /* href="#about" */ className={s.link} onClick={()=>handleClick("about")}><span className={s.span}>Sobre mi</span></a>
-                <a /* href="#projects" */ className={s.link} onClick={()=>handleClick("projects")}><span className={s.span}>Proyectos</span></a>
-                <a /* href="#technologies" */ className={s.link} onClick={()=>handleClick("technologies")}><span className={s.span}>Tecnologías</span></a>
-                <a /* href="#education" */ className={s.link} onClick={()=>handleClick("education")}><span className={s.span}>Educación</span></a>
-                <a /* href="#contact" */ className={s.link} onClick={()=>handleClick("contact")}><span className={s.span}>Contacto</span></a>
-            </div>
+            {
+                width > 1280 ?
+                    <div className={s.content}>
+                        <a className={s.link} onClick={()=>handleClick("about")}><span className={s.span}>Sobre mi</span></a>
+                        <a className={s.link} onClick={()=>handleClick("projects")}><span className={s.span}>Proyectos</span></a>
+                        <a className={s.link} onClick={()=>handleClick("technologies")}><span className={s.span}>Tecnologías</span></a>
+                        <a className={s.link} onClick={()=>handleClick("education")}><span className={s.span}>Educación</span></a>
+                        <a className={s.link} onClick={()=>handleClick("contact")}><span className={s.span}>Contacto</span></a>
+                    </div>
+                : 
+                <button>desplegable</button>
+            }
+            
         </div>
     )
 }
