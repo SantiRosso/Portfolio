@@ -101,20 +101,12 @@
     }
 
     .cv{
-        text-decoration: none;
-        color: #006fff;
-        background-color: #69b4ff;
-        border-radius: 5px;
         padding: 2px;
         box-shadow: -1px 1px 4px 2px #e1ffff;
-        transition: all .5s;
     }
 
     .cv:hover{
-        background-color: #006fff;
-        color: #69b4ff;
         transform: translate(-2px, 2px);
-        box-shadow: 0px 0px 0px 0px #e1ffff;
     }
 }
 
