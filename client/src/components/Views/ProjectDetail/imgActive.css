@@ -17,17 +17,12 @@
 
 @media (max-width: 800px) {
     .img{
-        height: 10vh;
-        width: 25vw;
-        cursor: pointer;
-        object-fit: cover;
+        height: 15vh;
+        width: 15vw;
     }
     
     .imgActive{
-        box-shadow: 0px 0px 4px 2px #69b4ff;
-        height: 10vh;
-        width: 25vw;
-        cursor: pointer;
-        object-fit: cover;
+        height: 15vh;
+        width: 15vw;
     }
 }
