@@ -78,7 +78,7 @@ const Technologies = () => {
                         </div>
                     </div>
                     <div>
-                        <h1>Otros</h1>
+                        <h1>Otras</h1>
                     </div>
                     <div className={s.subDiv}>
                         <div className={s.tooltipContainer}>
