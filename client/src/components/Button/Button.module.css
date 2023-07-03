@@ -9,13 +9,14 @@
     min-width: 2vw;
     width: max-content;
     background-color: #2d2d2d;
-    box-shadow: 0px 0px 4px 2px #69b4ff;
+    /* box-shadow: 0px 0px 4px 2px #69b4ff; */
     border-radius: 5px;
     font-size: medium;
     transition: .5s;
+    border: none;
 }
 
 .button:hover{
     background-color: #006fff;
-    border: 2px solid #69b4ff;
+    /* border: 2px solid #69b4ff; */
 }
