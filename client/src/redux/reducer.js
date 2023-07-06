@@ -37,7 +37,7 @@ const initialState = {
       id: 1,
       description: "Desarrollo individual de una API REST en Node.js.",
       repository: "https://github.com/SantiRosso/PI-Videogames",
-      deploy: "https://pi-videogames-pied.vercel.app/videogames",
+      deploy: "https://projectvideogames.vercel.app/",
       technologies: [
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
