@@ -1,4 +1,8 @@
 import s from "./Technologies.module.css";
+import cloudinary from "../../assets/cloudinarypng.png";
+import emailJs from "../../assets/emailJS.png";
+import nodemailer from "../../assets/nodemailer.png";
+
 
 const Technologies = () => {
     return(
@@ -93,7 +97,10 @@ const Technologies = () => {
                             <span className={s.tooltipText}>Firebase</span>
                             <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" />
                         </div>
-                        {/* <span>Cloudinary</span> */}
+                        <div className={s.tooltipContainer}>
+                            <span className={s.tooltipText}>Cloudinary</span>
+                            <img className={s.img} src={cloudinary} />
+                        </div>
                         <div className={s.tooltipContainer}>
                             <span className={s.tooltipText}>Chart.js</span>
                             <img className={s.img} src="https://www.chartjs.org/media/logo-title.svg" />
@@ -101,6 +108,14 @@ const Technologies = () => {
                         <div className={s.tooltipContainer}>
                             <span className={s.tooltipText}>Postman</span>
                             <img className={s.img} src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" />
+                        </div>
+                        <div className={s.tooltipContainer}>
+                            <span className={s.tooltipText}>EmailJs</span>
+                            <img className={s.img} src={emailJs} />
+                        </div>
+                        <div className={s.tooltipContainer}>
+                            <span className={s.tooltipText}>Nodemailer</span>
+                            <img className={s.img} src={nodemailer} />
                         </div>
                         {/* <span>Insomnia</span> */}
                     </div>
