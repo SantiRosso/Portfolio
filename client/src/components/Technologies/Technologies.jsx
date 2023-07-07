@@ -29,10 +29,6 @@ const Technologies = () => {
                             <span className={s.tooltipText}>Javascript</span>
                             <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                         </div>
-                        {/* <div className={s.tooltipContainer}>
-                            <span className={s.tooltipText}>Typescript</span>
-                            <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
-                        </div> */}
                         <div className={s.tooltipContainer}>
                             <span className={s.tooltipText}>React</span>
                             <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
@@ -41,10 +37,7 @@ const Technologies = () => {
                             <span className={s.tooltipText}>Redux</span>
                             <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" />
                         </div>
-                        {/* <div className={s.tooltipContainer}>
-                            <span className={s.tooltipText}>React Native</span>
-                            <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"  style={{backgroundColor: "#1E1E1E", borderRadius: "40%"}} />
-                        </div> */}
+                        
                         <div className={s.tooltipContainer}>
                             <span className={s.tooltipText}>Next.js</span>
                             <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" />
@@ -62,6 +55,10 @@ const Technologies = () => {
                             <img className={s.img} src={chakra} />
                         </div>
                         {/* <span>MUI</span> */}
+                        {/* <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />*/}
+                        {/* <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"  style={{backgroundColor: "#1E1E1E", borderRadius: "40%"}} /> */}
+                        {/* <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" /> */}
+                        {/* <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" /> */}
                     </div>
                     <div>
                         <h1>Back</h1>
@@ -87,11 +84,16 @@ const Technologies = () => {
                             <span className={s.tooltipText}>MongoDB/Mongoose</span>
                             <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
                         </div>
+                        {/* <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" /> */}
                     </div>
                     <div>
                         <h1>Otras</h1>
                     </div>
                     <div className={s.subDiv}>
+                        <div className={s.tooltipContainer}>
+                            <span className={s.tooltipText}>NPM</span>
+                            <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
+                        </div>
                         <div className={s.tooltipContainer}>
                             <span className={s.tooltipText}>Git</span>
                             <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
@@ -124,7 +126,15 @@ const Technologies = () => {
                             <span className={s.tooltipText}>Nodemailer</span>
                             <img className={s.img} src={nodemailer} />
                         </div>
+                        <div className={s.tooltipContainer}>
+                            <span className={s.tooltipText}>Trello</span>
+                            <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" />
+                        </div>
                         {/* <span>Insomnia</span> */}
+                        {/* <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/babel/babel-original.svg" /> */}
+                        {/* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg" /> */}
+                        {/* <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" /> */}
+                        {/* <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" /> */}
                     </div>
                 </div>
             </div>
