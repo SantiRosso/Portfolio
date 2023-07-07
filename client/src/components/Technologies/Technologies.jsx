@@ -2,6 +2,7 @@ import s from "./Technologies.module.css";
 import cloudinary from "../../assets/cloudinarypng.png";
 import emailJs from "../../assets/emailJS.png";
 import nodemailer from "../../assets/nodemailer.png";
+import chakra from "../../assets/chakra.png";
 
 
 const Technologies = () => {
@@ -28,7 +29,10 @@ const Technologies = () => {
                             <span className={s.tooltipText}>Javascript</span>
                             <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                         </div>
-                        {/* <span>Typescript</span> */}
+                        {/* <div className={s.tooltipContainer}>
+                            <span className={s.tooltipText}>Typescript</span>
+                            <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+                        </div> */}
                         <div className={s.tooltipContainer}>
                             <span className={s.tooltipText}>React</span>
                             <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
@@ -37,10 +41,10 @@ const Technologies = () => {
                             <span className={s.tooltipText}>Redux</span>
                             <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" />
                         </div>
-                        <div className={s.tooltipContainer}>
+                        {/* <div className={s.tooltipContainer}>
                             <span className={s.tooltipText}>React Native</span>
                             <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"  style={{backgroundColor: "#1E1E1E", borderRadius: "40%"}} />
-                        </div>
+                        </div> */}
                         <div className={s.tooltipContainer}>
                             <span className={s.tooltipText}>Next.js</span>
                             <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" />
@@ -53,7 +57,10 @@ const Technologies = () => {
                             <span className={s.tooltipText}>Tailwind</span>
                             <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
                         </div>
-                        {/* <span>Chakra</span> */}
+                        <div className={s.tooltipContainer}>
+                            <span className={s.tooltipText}>Chakra UI</span>
+                            <img className={s.img} src={chakra} />
+                        </div>
                         {/* <span>MUI</span> */}
                     </div>
                     <div>
