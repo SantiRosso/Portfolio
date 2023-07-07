@@ -1,5 +1,6 @@
 import { GET_PROJECT_BY_ID, CLEAN_STATE } from "./actions.js";
 
+//project images
 import videojuego1 from "../assets/images/videogames1.jpg";
 import videojuego2 from "../assets/images/videogames2.jpeg";
 import videojuego3 from "../assets/images/videogames3.jpeg";
@@ -22,6 +23,11 @@ import FormularioCEC1 from "../assets/images/FormularioCEC1.jpg";
 import FormularioCEC2 from "../assets/images/FormularioCEC2.jpg";
 import FormularioCEC3 from "../assets/images/FormularioCEC3.jpg";
 import FormularioCEC4 from "../assets/images/FormularioCEC4.jpg";
+//icons
+import cloudinary from "../assets/cloudinarypng.png";
+import emailJs from "../assets/emailJS.png";
+import nodemailer from "../assets/nodemailer.png";
+import chakra from "../assets/chakra.png";
 
 const initialState = {
   projects: [
@@ -87,8 +93,11 @@ const initialState = {
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
         "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
-        "https://www.chartjs.org/media/logo-title.svg" /* "Chakra" */ /* "Render/Vercel" */ /* "axios" */ /*Paypal-MercadoPago*/ /* bcryptjs */,
+        "https://www.chartjs.org/media/logo-title.svg" /* "Render/Vercel" */ /* "axios" */ /*Paypal-MercadoPago*/ /* bcryptjs */,
         ,
+        cloudinary,
+        nodemailer,
+        chakra,
       ],
       creators: [
         { name: "Santiago Rosso", github: "SantiRosso" },
@@ -157,8 +166,8 @@ const initialState = {
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" /* "toastify" */ /* "Vercel" */ /* "emailjs" */,
-        ,
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" /* "toastify" */ /* "Vercel" */,
+        emailJs,
       ],
       creators: [
         { name: "Santiago Rosso", github: "SantiRosso" },
