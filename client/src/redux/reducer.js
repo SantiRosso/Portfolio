@@ -154,7 +154,8 @@ const initialState = {
         // { img: FormularioCEC5, id: 5, description: "Mail que le llega a la coach" },
       ],
       id: 4,
-      description: "asd",
+      description:
+        "Se trata de una Spa (Simple Page Application) desarrollada con React y Redux como state management. Todos los componentes fueron creados con CSS sin uso de librerías externas. La SPA consume datos de una API a través de un Back End, que fue desarrollado en Node.JS con Express. La aplicación cuenta con un listado de 705 videojuegos con su información correspondiente detallada (imágenes, géneros, fecha de lanzamiento, etc.). Las funciones que se ofrecen para el usuario son: filtrar, ordenar, crear, eliminar y/o guardar como favorito los videojuegos.",
       repository:
         "https://github.com/GroupFiveDev/Formulario-Coaching-empleo-capacitacion",
       deploy: "https://formulario-taupe-nine.vercel.app/",
