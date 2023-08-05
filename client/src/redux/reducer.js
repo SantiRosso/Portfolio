@@ -41,7 +41,8 @@ const initialState = {
         { img: videojuego5, id: 5, description: "LogIn" },
       ],
       id: 1,
-      description: "Desarrollo individual de una API REST en Node.js.",
+      description:
+        "Desarrollo individual de una API REST en Node.js. Se trata de una página web desarrollada con React y Redux. Todos los componentes fueron creados con CSS sin uso de librerías externas. La página consume datos de una API a través de un Back End, que fue desarrollado en Node.JS con Express. La aplicación cuenta con un listado de más de 100 videojuegos con su información correspondiente detallada (imágenes, géneros, fecha de lanzamiento, etc.). Las funciones que se ofrecen para el usuario son: filtrar, ordenar, crear, editar, eliminar y/o guardar como favorito los videojuegos. También cuenta con la función de loguearse y crearse una cuenta.",
       repository: "https://github.com/SantiRosso/PI-Videogames",
       deploy: "https://projectvideogames.vercel.app/",
       technologies: [
@@ -74,7 +75,7 @@ const initialState = {
       ],
       id: 2,
       description:
-        "Desarrollo grupal de una API REST en Node.js bajo la metogología SCRUM con un equipo de 7 devs y 1 lider técnico y una duración de 4 semanas.",
+        "Desarrollo grupal de una API REST en Node.js con metodología SCRUM, junto con otros 6 desarrolladores y un líder técnico, con una duración de 4 semanas. Se trata de una página web desarrollada con React y Redux. Utilizando librerías de estilos como Chakra.UI y Chart.js para gráficos de estadísticas (en el dashboard del admin). La página tiene un Back End, que fue desarrollado en Node.JS con Express y una base de datos en postgreSQL (Sequelize como ORM). La aplicación te da la posibilidad de comprar y vender cursos. Las funciones que se ofrecen para el usuario son: ver detalles del curso, filtrar, ordenar, crear, editar eliminar y/o guardar como favorito los cursos. También cuenta con la función de loguearse y crearse una cuenta. Las transacciones se realizan por medio de paypal y el administrador de la página cuenta con un dashboard personalizado.",
       repository: "",
       deploy: "https://easy-learning-414mpg2kj-fran3003.vercel.app/",
       // deploy: "https://easylearning-fp.web.app/",
@@ -120,7 +121,8 @@ const initialState = {
         { img: Pokedex6, id: 6, description: "SignUp" },
       ],
       id: 3,
-      description: "asd",
+      description:
+        "Desarrollo individual de una API REST en Node.js. Se trata de una página web desarrollada con React y Redux. Todos los componentes fueron creados con CSS sin uso de librerías externas. La página consume datos de una API a través de un Back End, que fue desarrollado en Node.JS con Express. La aplicación cuenta con un listado de más de 151 pokemon con su información correspondiente detallada (imágenes, tipos, estadísticas, etc.). Las funciones que se ofrecen para el usuario son: filtrar, ordenar, crear, editar, eliminar y/o guardar como favorito los pokemon. También cuenta con la función de loguearse y crearse una cuenta.",
       repository: "https://github.com/SantiRosso/PI-Pokemon",
       deploy: "https://pi-pokemon-xi-wine.vercel.app/",
       technologies: [
@@ -155,7 +157,7 @@ const initialState = {
       ],
       id: 4,
       description:
-        "Se trata de una Spa (Simple Page Application) desarrollada con React y Redux como state management. Todos los componentes fueron creados con CSS sin uso de librerías externas. La SPA consume datos de una API a través de un Back End, que fue desarrollado en Node.JS con Express. La aplicación cuenta con un listado de 705 videojuegos con su información correspondiente detallada (imágenes, géneros, fecha de lanzamiento, etc.). Las funciones que se ofrecen para el usuario son: filtrar, ordenar, crear, eliminar y/o guardar como favorito los videojuegos.",
+        "La página es un formulario automatizado de Coaching de empleo y capacitación. El usuario que busca capacitarce en busqueda de empleo, llena un formulario que tiene varias secciones como: datos personales, CV, Empleo, LinkedIn, etcetera. Luego, se da una respuesta automática con gráficas y propuestas que se podrían ofrecer en el coaching. También se envía un mail al usuario y a la licenciada encargada del coaching enviandolé dicha información.",
       repository:
         "https://github.com/GroupFiveDev/Formulario-Coaching-empleo-capacitacion",
       deploy: "https://formulario-taupe-nine.vercel.app/",
@@ -217,7 +219,8 @@ const initialState = {
         { img: videojuego5, id: 5, description: "" },
       ],
       id: 6,
-      description: "asd",
+      description:
+        "Desarrollé junto a otros dos desarroladores, una plataforma completa que revoluciona la forma en que las propiedades se exploran y administran. En el frontend, combiné React y Tailwind para crear una interfaz receptiva que permite a los usuarios buscar, filtrar y ordenar propiedades según sus preferencias. Cada propiedad ofrece una página de detalle informativa, destacando imágenes de alta resolución y detalles clave. En el backend, utilicé Node.js y Express para construir una API sólida, respaldada por PostgreSQL y Sequelize para gestionar eficazmente la base de datos. Un panel de administración personalizado permite a los administradores agregar, modificar y eliminar propiedades de manera eficiente. Esta aplicación de inmobiliaria combina tecnologías modernas para ofrecer una experiencia excepcional tanto para usuarios como para el equipo interno.",
       repository: "https://github.com/GroupFiveDev/Martinez-Inmobiliaria-SRL",
       deploy: "https://martineznessicampos.com/",
       technologies: [
