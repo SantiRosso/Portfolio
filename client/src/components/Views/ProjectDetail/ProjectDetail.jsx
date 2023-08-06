@@ -50,6 +50,13 @@ const ProjectDetail = () => {
                     <h1>{project[0].name}</h1>
                     <a href={project[0]?.repository} target="blanck" style={{textDecoration: "none", color: "#69b4ff"}}>Repositorio del proyecto</a>
                     <p className={s.p}>{project[0].description}</p>
+                    {
+                        project[0].video !== "próximamente" ? 
+                            <a href={project[0].video} target="_blank" rel="noopener noreferrer" style={{textDecoration: "none", color: "#69b4ff"}}>Link del video</a>    
+                        :
+                            <p>Link del video: Próximamente</p>
+
+                    }
                     <h3>Creadores:</h3>
                     <div className={s.creators}>
                         {
