@@ -3,6 +3,7 @@ import cloudinary from "../../assets/cloudinarypng.png";
 import emailJs from "../../assets/emailJS.png";
 import nodemailer from "../../assets/nodemailer.png";
 import chakra from "../../assets/chakra.png";
+import typeorm from "../../assets/typeorm.png";
 
 
 const Technologies = () => {
@@ -30,6 +31,10 @@ const Technologies = () => {
                             <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                         </div>
                         <div className={s.tooltipContainer}>
+                            <span className={s.tooltipText}>Typescript</span>
+                            <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+                        </div>
+                        <div className={s.tooltipContainer}>
                             <span className={s.tooltipText}>React</span>
                             <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
                         </div>
@@ -41,6 +46,10 @@ const Technologies = () => {
                         <div className={s.tooltipContainer}>
                             <span className={s.tooltipText}>Next.js</span>
                             <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" />
+                        </div>
+                        <div className={s.tooltipContainer}>
+                            <span className={s.tooltipText}>Angular</span>
+                            <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
                         </div>
                         <div className={s.tooltipContainer}>
                             <span className={s.tooltipText}>Bootstrap</span>
@@ -55,9 +64,10 @@ const Technologies = () => {
                             <img className={s.img} src={chakra} />
                         </div>
                         {/* <span>MUI</span> */}
-                        {/* <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />*/}
-                        {/* <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"  style={{backgroundColor: "#1E1E1E", borderRadius: "40%"}} /> */}
-                        {/* <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" /> */}
+                        {/* <div className={s.tooltipContainer}>
+                            <span className={s.tooltipText}>React Native</span>
+                            <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"  style={{backgroundColor: "#1E1E1E", borderRadius: "40%"}} />
+                        </div> */}
                         {/* <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" /> */}
                     </div>
                     <div>
@@ -84,6 +94,19 @@ const Technologies = () => {
                             <span className={s.tooltipText}>MongoDB/Mongoose</span>
                             <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
                         </div>
+                        <div className={s.tooltipContainer}>
+                            <span className={s.tooltipText}>NestJS</span>
+                            <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg" />
+                        </div>
+                        <div className={s.tooltipContainer}>
+                            <span className={s.tooltipText}>MySQL</span>
+                            <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
+                        </div>
+                        <div className={s.tooltipContainer}>
+                            <span className={s.tooltipText}>TypeORM</span>
+                            <img className={s.img} src={typeorm} />
+                        </div>
+                        {/* TypeORM */}
                         {/* <img className={s.img} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" /> */}
                     </div>
                     <div>
