@@ -46,9 +46,12 @@ export const front = [
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
   },
   { name: "Chakra UI", img: chakra },
+  {
+    name: "React Native",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /* , style={{backgroundColor: "#1E1E1E", borderRadius: "40%"}} */,
+  },
 ];
 // {name: "MUI", img: }
-// {name: "React Native", img:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", style={{backgroundColor: "#1E1E1E", borderRadius: "40%"}}
 // {name: Flutter, img:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"}
 
 export const back = [
