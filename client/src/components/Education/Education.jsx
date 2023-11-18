@@ -22,7 +22,7 @@ const Education = () => {
                         </div>
                     </div>
                     <div>
-                        <p>Curso intensivo de desarrollo web full stack.</p>
+                        <p>Realicé un curso intensivo de desarrollo web full stack.</p>
                         <p>+700 horas de cursado teórico-práctico.</p>
                         <p>Tecnologías: Node.js, Javascript, HTML, CSS, React, Redux, Express, PostgreSQL, Sequelize, Git y Github.</p>
                     </div>
@@ -38,10 +38,10 @@ const Education = () => {
                         </div>
                     </div>
                     <div>
-                        <p>Coordinar a un grupo de estudiantes para lograr la integración al equipo de estudio.</p>
-                        <p>Asistir a la resolución de ejercicios y promover la colaboración grupal (Pair Programming).</p>
-                        <p>Proponer ideas para la mejora de los procesos del Bootcamp.</p>
-                        <p>Distinguido con una medalla de líder, por motivar e inspirar al resto.</p>
+                        <p>Coordiné a un grupo de estudiantes para lograr la integración al equipo de estudio.</p>
+                        <p>Asistí a la resolución de ejercicios y promover la colaboración grupal (Pair Programming).</p>
+                        <p>Propuse ideas para la mejora de los procesos del Bootcamp.</p>
+                        <p>Fui distinguido con una medalla de líder, por motivar e inspirar al resto.</p>
                     </div>
                 </div>
             </div>
