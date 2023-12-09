@@ -16,7 +16,7 @@ const NavBar = () => {
         <div className={s.container}>
             <div className={s.title}>
                 <span>Santiago Rosso</span>
-                <a href="https://drive.google.com/uc?export=download&id=1lgzP-pK6e2g68D33lJc0c5DpUyow7gDK" download className={s.cv}>
+                <a href="https://drive.google.com/uc?export=download&id=17GGLU6Q1pKmvTag3q8NGpGQd0AxMneB-" download className={s.cv}>
                     Descargar CV 
                 </a>
             </div>

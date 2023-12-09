@@ -13,8 +13,8 @@ const Education = () => {
             <div className={s.education}>
                 <div className={s.container} >
                     <div className={s.title}>
-                        <h1 className={s.h1}>Henry Bootcamp</h1>
-                        <h2 className={s.h1}>Buenos Aires, Argentina.</h2>
+                        <h1 className={s.h1}>Full Stack Web Developer</h1>
+                        <h2 className={s.h1}>Henry Bootcamp, Buenos Aires, Argentina.</h2>
                         <h3 className={s.h3}>agosto 2022 - enero 2023</h3>
                         <div className={s.tooltipContainer}>
                             <span className={s.tooltipText}>Click para ver el certificado</span>
